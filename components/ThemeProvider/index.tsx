@@ -197,3 +197,5 @@ const ThemeScript = React.memo(
     );
   }
 );
+
+ThemeScript.displayName = 'ThemeScript';
