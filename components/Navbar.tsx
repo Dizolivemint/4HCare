@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
-import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 import { Logo } from "./Logo";
 
@@ -15,7 +14,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full fixed bg-white dark:bg-trueGray-900">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>

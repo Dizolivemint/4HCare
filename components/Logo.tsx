@@ -1,5 +1,6 @@
+"use client";
 import { useTheme } from "@/components/ThemeProvider";
-export function Logo () {
+export const Logo = () => {
   const { theme } = useTheme();
   return (
     <svg
